@@ -190,17 +190,19 @@ export default function LabResults() {
         </div>
       </div>
 
-<div className="text-center text-red-500 uppercase">Umumiy qon taxlili</div>
+      <div className="text-center text-red-500 uppercase">
+        Умумий қон тахлили
+      </div>
 
       <div className="mb-1 flex items-end gap-3 justify-between">
         <div className="flex items-center gap-3">
-          <h1>FIO: </h1>
+          <h1>ФИО: </h1>
           <Input
             className="border-0 shadow-none  rounded-none border-b border-black w-[250px]"
             value={name}
             onChange={(e) => setName(e.target.value)}
           />
-          <h1>Tug'ilgan yil:</h1>
+          <h1>Туғилган йил:</h1>
           <Input
             value={birthYear}
             className="border-0 shadow-none rounded-none border-b border-black w-[150px]"
@@ -208,7 +210,7 @@ export default function LabResults() {
           />
         </div>
         <div>
-          <p>Sana: {date}</p>
+          <p>Сана: {date}</p>
         </div>
       </div>
 
@@ -220,14 +222,14 @@ export default function LabResults() {
             </TableHead>
             <TableHead className="w-[450px] bg-[#003da6] text-white">
               <div className="flex items-center justify-between">
-                <p>Tahlil Ko'rsatkichi</p> (test report)
+                <p>Таҳлил кўрсаткичи </p> (test report)
               </div>
             </TableHead>
             <TableHead className="text-center w-[120px] bg-[#003da6] text-white">
-              Norma REF
+              Норма REF
             </TableHead>
             <TableHead className="w-[120px] bg-[#003da6] text-white">
-              Natija
+              Натижа
             </TableHead>
           </TableRow>
         </TableHeader>
